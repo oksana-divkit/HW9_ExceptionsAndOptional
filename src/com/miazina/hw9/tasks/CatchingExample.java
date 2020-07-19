@@ -4,7 +4,7 @@ import com.miazina.hw9.exceptions.*;
 
 import java.io.IOException;
 
-public class TaskWithExceptions {
+public class CatchingExample {
     public void start() {
         try {
             throw new ExceptionA("Exception A");

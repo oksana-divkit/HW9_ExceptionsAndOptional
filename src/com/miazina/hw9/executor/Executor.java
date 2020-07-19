@@ -4,6 +4,7 @@ import com.miazina.hw9.tasks.*;
 
 public class Executor {
     public static void start() {
-        new TaskWithExceptions().start();
+        new CatchingExample().start();
+        new SafeDivision().start();
     }
 }
