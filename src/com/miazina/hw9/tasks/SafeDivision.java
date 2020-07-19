@@ -9,6 +9,7 @@ public class SafeDivision {
     int b;
 
     public void start() {
+        printMsg("9.2 Safe division.");
         printMsg("Please, enter first integer:");
         a = getNumberFromUser();
 

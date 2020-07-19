@@ -6,5 +6,6 @@ public class Executor {
     public static void start() {
         new CatchingExample().start();
         new SafeDivision().start();
+        new RethrowingExample().start();
     }
 }

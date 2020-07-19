@@ -6,6 +6,8 @@ import java.io.IOException;
 
 public class CatchingExample {
     public void start() {
+        System.out.println("9.1 Catching exceptions.");
+
         try {
             throw new ExceptionA("Exception A");
         } catch (ExceptionA e) {
