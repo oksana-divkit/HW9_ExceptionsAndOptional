@@ -8,6 +8,12 @@ public class SafeDivision {
     int a;
     int b;
 
+    BufferedReader bufferedReader;
+
+    public SafeDivision() {
+        bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    }
+
     public void start() {
         printMsg("9.2 Safe division.");
         printMsg("Please, enter first integer:");
@@ -49,7 +55,6 @@ public class SafeDivision {
         int num = 0;
 
         try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String input = bufferedReader.readLine();
             num = Integer.parseInt(input);
         } catch (IOException e) {
